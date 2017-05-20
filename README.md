@@ -11,13 +11,13 @@
 ## Demo WAF rule Writing
 
 1. Start testing the WAF rule i.e Comodo free WAF rules or OWASP crs rules with vulnerable web application and identifying the security issue in their rules.
-2. While testing the Free comodo WAF rules, I  find some loop hole which allow user to bypass sql inkection rules.
+2. While testing the Free comodo WAF rules, I  find some loop hole which allow user to bypass sql injection rules.
 
 `Demo Video :Testing free comodo WAF rules`
 
 [![Alt text](https://img.youtube.com/vi/wrDX5ulLB3A/0.jpg)](https://www.youtube.com/watch?v=wrDX5ulLB3A)
 
-3. These are the following payload which Free comodo rules failed to detected 
+3. These are the following payload which free comodo WAF rules failed to detected 
 
    **' /\*!or\*/1=1# <br />
    ' /\*!order\*/ By 1# <br />
@@ -28,7 +28,7 @@
 
 2. Fixing the identified security issue  by writing custom WAF rule.
 
-`Demo Video :Writing  custom rule to block above all possible attack using above payload`
+`Demo Video :Writing  custom rule to block above all possible attack using the above mentioned payloads`
 
 [![Alt text](https://img.youtube.com/vi/8nDEXZMK2uw/0.jpg)](https://www.youtube.com/watch?v=8nDEXZMK2uw)
 
