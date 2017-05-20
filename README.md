@@ -8,13 +8,27 @@
    4. Save the rule as .conf and include in the default rules directory.
    5. Restart the Apache server and start testing the WAF rules. 
 
-## Demo 
+## Demo WAF rule Writing
 
-1. Testing the Comodo free WAF rules with vulnerable web application and identifying the security issue in their rules.
+1. Start testing the WAF rule i.e Comodo free WAF rules or OWASP crs rules with vulnerable web application and identifying the security issue in their rules.
+2. While testing the Free comodo WAF rules, I  find some loop hole which allow user to bypass sql inkection rules.
+
+`Demo Video :Testing free comodo WAF rules`
 
 [![Alt text](https://img.youtube.com/vi/wrDX5ulLB3A/0.jpg)](https://www.youtube.com/watch?v=wrDX5ulLB3A)
 
+3. These are the following payload which Free comodo rules failed to detected 
+
+   **' /\*!or\*/1=1# <br />
+   ' /\*!order\*/ By 1# <br />
+   ' || 1=1# <br />
+   ' &&  1=1# <br />
+   ' /\*!||\*/ 1=1# <br />
+   ' /\*!&&\*/  1=1#**
+
 2. Fixing the identified security issue  by writing custom WAF rule.
+
+`Demo Video :Writing  custom rule to block above all possible attack using above payload`
 
 [![Alt text](https://img.youtube.com/vi/8nDEXZMK2uw/0.jpg)](https://www.youtube.com/watch?v=8nDEXZMK2uw)
 
