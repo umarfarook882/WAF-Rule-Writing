@@ -2,7 +2,7 @@
 # Modsecurity WAF rules Writing:
 ![bannner-WAF](https://cloud.githubusercontent.com/assets/22318677/26273994/8d5414d8-3d5b-11e7-9cd4-b76e4163529c.jpg)
 ## How to write Custom WAF rule to block new attacks on web application?
-   1. At first, try to identify the security issue i.e payload or process which normal waf failed to detect. 
+   1. At first, try to identify the security issue i.e payload or process which normally  waf failed to detect. 
    2. Based on that develope regex pattern to match that payload. 
    3. Follow the modsecurity syntax to  write a new rule.
    4. Save the rule as .conf and include in the default rules directory.
