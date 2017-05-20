@@ -28,7 +28,7 @@
 
 2. Fixing the identified security issue  by writing custom WAF rule.
 
-`Demo Video :Writing  custom rule to block above all possible attack using the above mentioned payloads`
+`Demo Video :Writing  custom rule to block above mentioned payloads using regex expression`
 
 [![Alt text](https://img.youtube.com/vi/8nDEXZMK2uw/0.jpg)](https://www.youtube.com/watch?v=8nDEXZMK2uw)
 
